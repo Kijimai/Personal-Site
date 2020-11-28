@@ -62,6 +62,11 @@ h2 {
   position: absolute;
 }
 
+.mountain {
+  display: block;
+  margin: 0 auto;
+}
+
 .rounded {
   border-radius: 50%;
 }
