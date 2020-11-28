@@ -1,0 +1,145 @@
+@font-face {
+  font-family: 'Merriweather';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/merriweather/v22/u-440qyriQwlOrhSvowK_l5-fCZM.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+  font-family: 'Merriweather';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/merriweather/v22/u-4n0qyriQwlOrhSvowK_l52xwNZWMf6.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  /* border: 1px solid; */
+}
+
+body {
+  font-family: "Merriweather", monospace, sans-serif;
+  font-size: 22px;
+  text-align: center;
+}
+
+.header-div {
+  position: relative;
+  background-color: #3c819c;
+}
+
+.header-div h2 {
+  font-size: 1.5em;
+  line-height: 2;
+  font-weight: normal;
+}
+
+h1,
+h2 {
+  color: #66BFBF;
+}
+
+.name-header {
+  font-size: 4em;
+}
+
+.name-hl {
+  color: rgb(243, 130, 64);
+}
+
+.cloud {
+  position: relative;
+  top: 50px;
+  left: 250px;
+}
+
+.bottom-cloud {
+  position: absolute;
+}
+
+.rounded {
+  border-radius: 50%;
+}
+
+.profile {
+  margin: 4em auto;
+}
+
+.profile p {
+  line-height: 2;
+}
+
+.skills-header {
+  margin: 2em auto;
+  max-width: 500px;
+}
+
+.skills img {
+  margin: 1em 0;
+  height: 300px;
+  width: 300px;
+}
+
+.skills-header,
+.skill-row {
+  line-height: 1.75;
+}
+
+.skill-row,
+.contact-me {
+  margin: 4em 1.5em;
+  display: inline-block;
+}
+
+.skill-list {
+  list-style: none;
+}
+
+.chilli-row,
+.chilli-row2 {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.chilli-row h3,
+.chilli-row2 h3 {
+  font-size: 2em;
+}
+
+.chilli-row p,
+.chilli-row2 p {
+  line-height: 1.65;
+  font-size: 0.825em;
+  max-width: 800px;
+  margin: 1.75em auto;
+}
+
+.chilli-row img {
+  float: left;
+  margin-right: 30px; 
+}
+
+.chilli-row2 img {
+  float: right;
+}
+
+.chilli-row {
+  margin-top: 1.75em;
+}
+
+hr {
+  margin: 0 auto;
+  width: 15%;
+  border: 0.65em steelblue;
+  border-style: dotted none none none;
+}
+
+a,
+h3 {
+  color: #11999E;
+}
